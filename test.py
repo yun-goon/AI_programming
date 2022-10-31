@@ -1,6 +1,4 @@
+import pandas as pd
 
-def func():
-global a
-a = a + 10
-func()
-print(a)
+df = pd.read_csv('.\data\countries.csv', index_col = 0)
+print(df)
